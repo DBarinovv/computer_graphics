@@ -61,8 +61,8 @@ int main( void )
 	glBindVertexArray(VertexArrayID);
 
 	// Create and compile our GLSL program from the shaders
-	GLuint triangleID1 = LoadShaders( "SimpleVertexShader.vertexshader", "SimpleFragmentShader.fragmentshader" );
-	GLuint triangleID2 = LoadShaders("SimpleVertexShader.vertexshader", "SimpleFragmentShader.fragmentshader");
+	GLuint triangleID1 = LoadShaders("SimpleVertexShader.vertexshader", "RedFragmentShader.fragmentshader" );
+	GLuint triangleID2 = LoadShaders("SimpleVertexShader.vertexshader", "GreenFragmentShader.fragmentshader");
 
 
 	static const GLfloat triangle1[] = { 
